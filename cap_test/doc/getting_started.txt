@@ -1,0 +1,8 @@
+1. start memcached:
+$ memcached -d
+
+2. run the following commands in Python:
+>>> from memcached_stats import MemcachedStats
+>>> mem = MemcachedStats()
+>>> mem.keys()
+>>> mem.key_details('rack::attack:4697371:/posts/id:127.0.0.1_GET_/posts/1') #example
