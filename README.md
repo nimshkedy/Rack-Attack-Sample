@@ -1,0 +1,1 @@
+Browsing to http://localhost:3000/posts/<id> will be limited to 15 requests in 5 minutes from any IP.
